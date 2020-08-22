@@ -1,0 +1,69 @@
+.container {
+  width: 1120px;
+}
+.nav-bar img {
+  margin-top: 14px;
+}
+.nav-bar ul {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar li {
+  padding: 30px 30px 30px;
+}
+.column-4 span {
+  margin-top: 32px;
+  font-size: 12px;
+  color: #9fa1aa;
+  line-height: 15px;
+  width: 68px;
+}
+.column-4 h1 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+  width: 352px;
+}
+.column-4 p {
+  color: #000000;
+  font-size: 15px;
+  width: 352px;
+  line-height: 24px;
+}
+.boxes {
+  margin-top: 100px;
+}
+.boxes-2 {
+  margin-top: 100px;
+}
+.boxes-3 {
+  margin-top: 100px;
+}
+.footerWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 100px;
+  align-items: center;
+}
+.footerWrap span {
+  font-size: 14px;
+  color: #9fa1aa;
+}
+.social__text {
+  display: flex;
+  position: relative;
+}
+.social__text p {
+  margin-right: 10px;
+  color: #9fa1aa;
+  font-size: 14px;
+}
+.social__text p::before {
+  content: "/";
+  margin-right: 10px;
+}
+.social__text p:first-child::before {
+  display: none;
+}
